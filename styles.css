@@ -1,0 +1,104 @@
+
+/* header: logo & navigation bar */
+
+header {
+    background-color: #e2e1da;
+    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+}
+
+a, a:active, a:link, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: inline-block;
+    margin: 15px 0px 18px 35px;
+    color: black;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    text-transform:capitalize;
+    font-size: 20px;
+}
+
+.navbtn {
+    float: right;
+    margin: 20px 38px 18px 35px;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: #EEEDE7;
+    color: #292b2c;
+}
+
+
+/* landing page first section*/
+
+#home {
+    margin: 80px;
+    text-align: center;
+}
+
+.main {
+    margin: 10px;
+}
+
+
+/* landing page second section with the video */
+
+.badge {
+    width: 100%;
+    margin: 30px auto 0px auto;
+}
+
+.grph {
+    padding-bottom: 20px;
+}
+
+.description {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    font-size: 2vw;
+}
+
+#howItWorks {
+    margin: 130px auto 130px auto;
+}
+  
+/* footer */
+
+#footer {
+    background-color: #e2e1da;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.ftbr {
+    text-align: center;
+    color: gray;
+    padding: 9px;
+}
+
+.ftbns {
+    text-align: center;
+}
+
+
+@media (max-width: 626px) {
+    .logo {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .navbtn {
+        width: 100%;
+        text-align: center;
+        margin: 20px auto 18px auto;
+    }
+}
